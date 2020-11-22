@@ -15,7 +15,7 @@ body {
   clear: both;
 }
 .slider {
-  background-image: url(../images/slider3.jpg);
+  background-image: url(../images/slider.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +23,7 @@ body {
 }
 .intro {
   text-align: center;
-  color: #fff;
+  color: #000;
   font-size: 30px;
   padding-top: 200px;
   padding-bottom: 300px;
@@ -89,7 +89,7 @@ button {cursor: pointer;}
   padding-left: 20px;
   line-height: 1.4;
   text-align: justify;
-} 
+}
 .featuresec p {
   color:#675a5a;
 }
@@ -110,7 +110,7 @@ button {cursor: pointer;}
 }
 .aboutmesection {
   float: left;
-  width: 60%; 
+  width: 60%;
 }
 .aboutmediv .aboutmesection p {width: 89%;}
 .aboutarticle {
@@ -121,7 +121,7 @@ button {cursor: pointer;}
   float: left;
   width: 50%;
 }
-.aboutarticle .aboutmesec h3 {width: 35%; padding-left: 16%; margin-bottom: 0%;}  .aboutmesec p {width:60%; float: left;} 
+.aboutarticle .aboutmesec h3 {width: 35%; padding-left: 16%; margin-bottom: 0%;}  .aboutmesec p {width:60%; float: left;}
 .aboutimgs {
   width: 12%;
   height: 55px;
@@ -234,6 +234,7 @@ cite {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #252f31 ;
+  color: grey;
 }
 .leftcontactsec {
   width: 48% ;
