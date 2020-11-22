@@ -1,0 +1,275 @@
+
+body {
+  /*background-color: #888;*/
+  z-index: 1;
+  text-align: justify;
+  line-height: 1.3;
+  font-family: Verdana;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.clear {
+  clear: both;
+}
+.slider {
+  background-image: url(../images/slider3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:  600px;
+}
+.intro {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  padding-top: 200px;
+  padding-bottom: 300px;
+  font-weight: 600;
+}
+.h2slider {
+  margin: 0 auto;
+  width: 600px;
+  border-top: 3px #fff solid;
+  border-bottom: 3px #fff solid;
+  padding: 5px 5px;
+}
+.sliderbttn {
+  background-color: inherit;
+  color: #fff;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px 20px 10px 20px;
+  font-weight: 600;
+}
+.navbar {
+  background-color: #252f31;
+  color : #fff;
+  overflow: hidden;
+  z-index: 2;
+}
+button {cursor: pointer;}
+.h2s {float: left; text-transform: uppercase; cursor: pointer;}
+.sspan {color: #2ecc71;}
+
+.ulbar {
+  list-style: none;
+  overflow: hidden;
+  float: right;
+}
+
+.libar {
+  float: left;
+  padding-left: 45px;
+  padding-top: 7px;
+}
+.abar {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.abar:hover {
+  color:#2dcc70;
+}
+.abar:active {
+  color:#2dcc70;
+}
+.featuresdiv {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  overflow: hidden;
+
+}
+.featuresec {
+  float: left;
+  width: 380px;
+  padding-left: 20px;
+  line-height: 1.4;
+  text-align: justify;
+} 
+.featuresec p {
+  color:#675a5a;
+}
+.aboutmediv {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.aboutimg {
+  float: left;
+  width: 38%;
+  height: 400px;
+  margin-right: 2%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 12px;
+}
+.aboutmesection {
+  float: left;
+  width: 60%; 
+}
+.aboutmediv .aboutmesection p {width: 89%;}
+.aboutarticle {
+  width: 60%;
+  float: left;
+}
+.aboutmesec {
+  float: left;
+  width: 50%;
+}
+.aboutarticle .aboutmesec h3 {width: 35%; padding-left: 16%; margin-bottom: 0%;}  .aboutmesec p {width:60%; float: left;} 
+.aboutimgs {
+  width: 12%;
+  height: 55px;
+  float: left;
+  padding: 8% 3% 0% 1%;
+}
+.seo {
+  float: left;
+}
+.skillsdiv {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.skillssec {
+  float: left;
+  width: 50%;
+}
+.skillsbttn {
+  background-color: inherit;
+  color: #2dcc70;
+  border-color: #2dcc70;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  font-weight: 600;
+}
+.progresssec {
+  float: right;
+  width: 45%;
+  padding-left: 5%;
+}
+meter {
+  width: 100%;
+  height: 20px;
+}
+.resumediv {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.resumebttn {
+  background-color: inherit;
+  color: #2dcc70;
+  border-color: #2dcc70;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  font-weight: 600;
+}
+.eduexdiv {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.eduarticle {
+  overflow: hidden;
+}
+.leftedusec {
+  width: 47%;
+  float: left;
+  padding-right: 3%;
+}
+.rightedusec {
+  width: 47%;
+  float: right;
+  padding-left:3%;
+}
+.eduexspan {
+  background-color: #2dcc70;
+  color: #EEE;
+  padding: 5px;
+  margin: 5px;
+}
+.testimonialsdiv {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+  background-color: #f2f2f2 ;
+}
+.testimonialsec {
+  text-align: center;
+}
+cite {
+  font-weight: bold;
+}
+.portdiv {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+.portsec {
+  text-align: center;
+}
+.portfig {
+  float: left;
+  width: 31.333333%;
+  height: 350px;
+  padding:0%;
+  margin: 1%;
+}
+.portfig img {width: 100%; height: 100%;}
+.portdiv .portimgssec .portfig img {
+  width: 100%;
+}
+.footer {
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #252f31 ;
+}
+.leftcontactsec {
+  width: 48% ;
+  float: left;
+}
+.h2contact {
+  color: #EEE;
+}
+.contactspan {
+  color: #EEE;
+}
+.rightcontactsec {
+  width: 48%;
+  float: right;
+  padding: 2%;
+}
+.email,.name {
+  background-color: #4b5557;
+  border: none;
+  width: 100%;
+  height: 30px;
+}
+.comment {
+  background-color: #4b5557;
+  width: 100%;
+}
+.contactbttn {
+  background-color: #191e22;
+  border: 0px;
+  padding: 10px 20px 10px 20px;
+  color: #EEE;
+}
+.copysec {
+  background-color: #191e22 ;
+  text-align: center;
+  padding: 30px;
+}
+/*
+*/
